@@ -1,0 +1,110 @@
+import { motion } from "framer-motion";
+import { Card } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Github, ExternalLink } from "lucide-react";
+
+const projects = [
+  {
+    title: "NeonTech Startup Landing Page",
+    description: "A futuristic startup landing page with modern design patterns, smooth animations, and responsive layout. Built with cutting-edge technologies.",
+    tech: ["React", "Tailwind CSS", "Framer Motion"],
+    github: "https://github.com/Reteecent/neontech",
+    gradient: "from-neon-cyan to-neon-blue"
+  },
+  {
+    title: "Unruly Landing Page",
+    description: "A bold and creative landing page template featuring innovative design elements and seamless user experience optimization.",
+    tech: ["React", "CSS Animations", "Responsive Design"],
+    github: "https://github.com/Reteecent/unruly-landing-page-template",
+    gradient: "from-neon-purple to-neon-pink"
+  },
+  {
+    title: "Scribe AI",
+    description: "An AI-powered writing assistant that leverages modern language models to enhance content creation and productivity workflows.",
+    tech: ["React", "AI Integration", "Node.js"],
+    github: "https://github.com/Reteecent/scribe-ai",
+    gradient: "from-neon-blue to-neon-purple"
+  }
+];
+
+const Projects = () => {
+  return (
+    <section id="projects" className="py-24 relative">
+      <div className="container mx-auto px-6">
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          viewport={{ once: true }}
+          className="text-center mb-16"
+        >
+          <h2 className="font-cyber text-4xl md:text-6xl font-bold mb-6 bg-gradient-cyber bg-clip-text text-transparent">
+            Featured Projects
+          </h2>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            A showcase of my latest work in frontend development and AI integration
+          </p>
+        </motion.div>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {projects.map((project, index) => (
+            <motion.div
+              key={project.title}
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: index * 0.2 }}
+              viewport={{ once: true }}
+            >
+              <Card className="bg-gradient-card border-border hover:border-neon-cyan transition-all duration-300 h-full group">
+                <div className="p-6 h-full flex flex-col">
+                  <div className={`w-full h-32 bg-gradient-to-r ${project.gradient} rounded-lg mb-6 opacity-80 group-hover:opacity-100 transition-all duration-300`}></div>
+                  
+                  <h3 className="font-cyber text-xl font-semibold mb-3 text-foreground group-hover:text-neon-cyan transition-colors duration-300">
+                    {project.title}
+                  </h3>
+                  
+                  <p className="text-muted-foreground mb-4 flex-grow leading-relaxed">
+                    {project.description}
+                  </p>
+                  
+                  <div className="flex flex-wrap gap-2 mb-6">
+                    {project.tech.map((tech) => (
+                      <span 
+                        key={tech}
+                        className="px-3 py-1 bg-muted text-muted-foreground text-sm rounded-full border border-border"
+                      >
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+                  
+                  <div className="flex gap-3">
+                    <Button 
+                      variant="outline" 
+                      size="sm" 
+                      className="flex-1 border-neon-cyan text-neon-cyan hover:bg-neon-cyan hover:text-background transition-all duration-300"
+                      onClick={() => window.open(project.github, "_blank")}
+                    >
+                      <Github className="w-4 h-4 mr-2" />
+                      Code
+                    </Button>
+                    <Button 
+                      variant="outline" 
+                      size="sm" 
+                      className="border-accent text-accent hover:bg-accent hover:text-background transition-all duration-300"
+                    >
+                      <ExternalLink className="w-4 h-4 mr-2" />
+                      Live
+                    </Button>
+                  </div>
+                </div>
+              </Card>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Projects;
