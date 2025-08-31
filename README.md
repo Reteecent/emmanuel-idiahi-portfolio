@@ -1,73 +1,66 @@
-# Welcome to your Lovable project
+# emmanuel-idiahi-portfolio &nbsp;![Portfolio](https://img.shields.io/badge/portfolio-blue?logo=portfolio) ![TypeScript](https://img.shields.io/badge/language-TypeScript-blue?logo=typescript) ![Public](https://img.shields.io/badge/status-public-brightgreen?logo=github)
 
-## Project info
+Welcome to the official repository for **Emmanuel Idiahi's Portfolio**!  
+This project showcases the professional journey, skills, and projects of Emmanuel Idiahi, built with modern web technologies to provide a responsive and engaging digital presence.
 
-**URL**: https://lovable.dev/projects/ea553309-d6cb-4f33-afaa-149d8bac635c
+---
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+- **Personal Introduction** &nbsp;:bust_in_silhouette:
+- **Project Showcase** &nbsp;:sparkles:
+- **Skills & Technologies** &nbsp;:hammer_and_wrench:
+- **Contact Information** &nbsp;:email:
+- **Responsive Design** &nbsp;:iphone: :computer:
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ea553309-d6cb-4f33-afaa-149d8bac635c) and start prompting.
+## 🛠️ Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+![TypeScript](https://img.shields.io/badge/TypeScript-007acc?logo=typescript)
+![React](https://img.shields.io/badge/React-61DAFB?logo=react)
+![CSS](https://img.shields.io/badge/CSS-2965f1?logo=css3)
+![HTML](https://img.shields.io/badge/HTML5-e34c26?logo=html5)
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📦 Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```bash
+git clone https://github.com/Reteecent/emmanuel-idiahi-portfolio.git
+cd emmanuel-idiahi-portfolio
+npm install
+npm start
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🌐 Usage
 
-**Use GitHub Codespaces**
+- Browse Emmanuel's professional background and completed projects.
+- Contact via provided channels for collaboration or opportunities.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 📄 License
 
-This project is built with:
+This project is currently unlicensed.  
+If you plan to use or contribute, please contact the repository owner.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🙌 Contributing
 
-Simply open [Lovable](https://lovable.dev/projects/ea553309-d6cb-4f33-afaa-149d8bac635c) and click on Share -> Publish.
+Contributions are welcome!  
+Fork the repository, create a new branch, and submit a pull request.
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 📫 Contact
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Find more at [Emmanuel Idiahi's GitHub](https://github.com/Reteecent/emmanuel-idiahi-portfolio)  
+For inquiries, please open an issue or use the contact section in the portfolio.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+> Built and maintained by [Reteecent](https://github.com/Reteecent)  
