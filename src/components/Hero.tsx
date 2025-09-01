@@ -46,7 +46,6 @@ const Hero = () => {
           >
             I build sleek and functional web experiences that push the boundaries of modern technology.
           </motion.p>
-          
           <motion.div 
             className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16"
             initial={{ opacity: 0, y: 30 }}
@@ -54,17 +53,20 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.8 }}
           >
             <Button 
-              size="lg" 
+              size="lg"
               className="bg-gradient-cyber hover:shadow-glow-cyan transition-all duration-300 font-semibold px-8 py-6 text-lg"
-            >
+              onClick={() => {
+                const el = document.getElementById('projects');
+                if (el) el.scrollIntoView({ behavior: 'smooth' });
+              }}>
               View My Work
             </Button>
-            
             <div className="flex gap-4">
               <Button 
                 variant="outline" 
                 size="lg" 
                 className="border-neon-cyan text-neon-cyan hover:bg-neon-cyan hover:text-background transition-all duration-300"
+                onClick={() => window.open('https://github.com/Reteecent', '_blank')}
               >
                 <Github className="w-5 h-5 mr-2" />
                 GitHub
@@ -73,14 +75,19 @@ const Hero = () => {
                 variant="outline" 
                 size="lg" 
                 className="border-neon-purple text-neon-purple hover:bg-neon-purple hover:text-background transition-all duration-300"
+                onClick={() => window.open('https://www.linkedin.com/in/emmanuel-idiahi-6a681a333/', '_blank')}
               >
                 <Linkedin className="w-5 h-5 mr-2" />
                 LinkedIn
               </Button>
               <Button 
-                variant="outline" 
-                size="lg" 
+                variant="outline"
+                size="lg"
                 className="border-accent text-accent hover:bg-accent hover:text-background transition-all duration-300"
+                onClick={() => {
+                  const el = document.getElementById('contact');
+                  if (el) el.scrollIntoView({ behavior: 'smooth' });
+                }}
               >
                 <Mail className="w-5 h-5 mr-2" />
                 Contact

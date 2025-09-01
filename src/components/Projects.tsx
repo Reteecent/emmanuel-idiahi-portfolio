@@ -1,7 +1,11 @@
+
 import { motion } from "framer-motion";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Github, ExternalLink } from "lucide-react";  
+import { Github, ExternalLink } from "lucide-react";
+import neontechImg from '@/assets/neontech.png';
+import unrulyImg from '@/assets/unruly.png';
+import scribeaiImg from '@/assets/scribeai.png';
 
 const projects = [
   {
@@ -9,6 +13,8 @@ const projects = [
     description: "A futuristic, minimalist startup landing page built with React and Tailwind CSS. Featuring a sleek dark theme, glowing neon accents, smooth animations, and a clean layout to showcase your products or services. Perfect for startups, SaaS, and tech companies looking for a modern web presence.",
     tech: ["React", "Tailwind CSS", "Framer Motion"],
     github: "https://github.com/Reteecent/neontech",
+    live: "https://theneontech.netlify.app/",
+  image: neontechImg,
     gradient: "from-neon-cyan to-neon-blue"
   },
   {
@@ -16,6 +22,8 @@ const projects = [
     description: "A bold and creative landing page template featuring innovative design elements and seamless user experience optimization.",
     tech: ["HTML", "CSS Animations", "Responsive Design"],
     github: "https://github.com/Reteecent/unruly-landing-page-template",
+    live: "https://unruly-landing-page.netlify.app/",
+  image: unrulyImg,
     gradient: "from-neon-purple to-neon-pink"
   },
   {
@@ -23,6 +31,8 @@ const projects = [
     description: "A modern, responsive AI-powered chat application built with vanilla JavaScript that provides intelligent conversations with document export capabilities.",
     tech: ["React", "AI Integration", "Node.js"],
     github: "https://github.com/Reteecent/scribe-ai",
+    live: "https://the-scribe-ai.netlify.app/",
+  image: scribeaiImg,
     gradient: "from-neon-blue to-neon-purple"
   }
 ];
@@ -57,7 +67,12 @@ const Projects = () => {
             >
               <Card className="bg-gradient-card border-border hover:border-neon-cyan transition-all duration-300 h-full group">
                 <div className="p-6 h-full flex flex-col">
-                  <div className={`w-full h-32 bg-gradient-to-r ${project.gradient} rounded-lg mb-6 opacity-80 group-hover:opacity-100 transition-all duration-300`}></div>
+                  {/* Project screenshot image */}
+                  <img
+                    src={project.image}
+                    alt={project.title + ' screenshot'}
+                    className="w-full h-32 object-cover rounded-lg mb-6 opacity-80 group-hover:opacity-100 transition-all duration-300"
+                  />
                   
                   <h3 className="font-cyber text-xl font-semibold mb-3 text-foreground group-hover:text-neon-cyan transition-colors duration-300">
                     {project.title}
@@ -92,6 +107,7 @@ const Projects = () => {
                       variant="outline" 
                       size="sm" 
                       className="border-accent text-accent hover:bg-accent hover:text-background transition-all duration-300"
+                      onClick={() => window.open(project.live, "_blank")}
                     >
                       <ExternalLink className="w-4 h-4 mr-2" />
                       Live

@@ -6,6 +6,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Github, Linkedin, Mail, Send } from "lucide-react";  
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -13,16 +14,44 @@ const Contact = () => {
     email: "",
     message: ""
   });
+  const [sending, setSending] = useState(false);
+  const [sent, setSent] = useState(false);
   const { toast } = useToast();
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Simulate form submission
-    toast({
-      title: "Message Sent!",
-      description: "Thank you for your message. I'll get back to you soon!",
-    });
-    setFormData({ name: "", email: "", message: "" });
+    setSending(true);
+    setSent(false);
+    try {
+      await emailjs.send(
+        'service_otd5p3w', // EmailJS service ID
+        'template_6v4oakw', // EmailJS template ID
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          message: formData.message,
+          reply_to: formData.email,
+          to_name: 'Emmanuel Idiahi',
+          auto_reply: `Hey, ${formData.name}, thank you for reaching out. I'll get back to you soon.`
+        },
+        'C0vUDQkqdD8J7EQdJ' // EmailJS public key
+      );
+      toast({
+        title: "Message Sent!",
+        description: "Thank you for your message. I'll get back to you soon!",
+      });
+      setFormData({ name: "", email: "", message: "" });
+      setSent(true);
+    } catch (error) {
+      toast({
+        title: "Error",
+        description: "Failed to send message. Please try again later.",
+        variant: "destructive"
+      });
+      setSent(false);
+    } finally {
+      setSending(false);
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -101,9 +130,10 @@ const Contact = () => {
                 <Button 
                   type="submit" 
                   className="w-full bg-gradient-cyber hover:shadow-glow-cyan transition-all duration-300 font-semibold"
+                  disabled={sending}
                 >
                   <Send className="w-4 h-4 mr-2" />
-                  Send Message
+                  {sending ? 'Sending...' : sent ? 'Sent Message' : 'Send Message'}
                 </Button>
               </form>
             </Card>
@@ -125,7 +155,7 @@ const Contact = () => {
               <div className="space-y-4">
                 <div className="flex items-center gap-4">
                   <Mail className="w-5 h-5 text-neon-cyan" />
-                  <span className="text-muted-foreground">emmanuel.idiahi@example.com</span>
+                  <a href="mailto:emmanosaretin@gmail.com" className="text-muted-foreground hover:text-neon-cyan transition-colors">emmanosaretin@gmail.com</a>
                 </div>
                 
                 <div className="flex items-center gap-4">
@@ -145,7 +175,7 @@ const Contact = () => {
                   variant="outline" 
                   size="lg" 
                   className="flex-1 border-neon-cyan text-neon-cyan hover:bg-neon-cyan hover:text-background transition-all duration-300"
-                  onClick={() => window.open("#", "_blank")}
+                  onClick={() => window.open('https://github.com/Reteecent', '_blank')}
                 >
                   <Github className="w-5 h-5 mr-2" />
                   GitHub
@@ -155,7 +185,7 @@ const Contact = () => {
                   variant="outline" 
                   size="lg" 
                   className="flex-1 border-neon-purple text-neon-purple hover:bg-neon-purple hover:text-background transition-all duration-300"
-                  onClick={() => window.open("#", "_blank")}
+                  onClick={() => window.open('https://www.linkedin.com/in/emmanuel-idiahi-6a681a333/', '_blank')}
                 >
                   <Linkedin className="w-5 h-5 mr-2" />
                   LinkedIn
