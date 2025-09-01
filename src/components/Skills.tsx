@@ -90,21 +90,7 @@ const Skills = () => {
             whileHover={{ scale: 1.05 }}
             className="lg:col-start-2"
           >
-            <Card className="bg-gradient-card border-border hover:border-neon-cyan transition-all duration-300 p-6 h-full group cursor-pointer">
-              <div className="text-center">
-                <div className="text-6xl mb-4 group-hover:animate-bounce">
-                  🤖
-                </div>
-                
-                <h3 className="font-cyber text-xl font-semibold mb-3 text-neon-pink group-hover:text-neon-cyan transition-colors duration-300">
-                  AI Integration
-                </h3>
-                
-                <p className="text-muted-foreground text-sm leading-relaxed">
-                  Exploring AI-powered development solutions
-                </p>
-              </div>
-            </Card>
+           
           </motion.div>
         </div>
       </div>

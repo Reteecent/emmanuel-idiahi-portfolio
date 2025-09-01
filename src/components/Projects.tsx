@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Github, ExternalLink } from "lucide-react";
+import { Github, ExternalLink } from "lucide-react";  
 
 const projects = [
   {
     title: "NeonTech Startup Landing Page",
-    description: "A futuristic startup landing page with modern design patterns, smooth animations, and responsive layout. Built with cutting-edge technologies.",
+    description: "A futuristic, minimalist startup landing page built with React and Tailwind CSS. Featuring a sleek dark theme, glowing neon accents, smooth animations, and a clean layout to showcase your products or services. Perfect for startups, SaaS, and tech companies looking for a modern web presence.",
     tech: ["React", "Tailwind CSS", "Framer Motion"],
     github: "https://github.com/Reteecent/neontech",
     gradient: "from-neon-cyan to-neon-blue"
@@ -14,13 +14,13 @@ const projects = [
   {
     title: "Unruly Landing Page",
     description: "A bold and creative landing page template featuring innovative design elements and seamless user experience optimization.",
-    tech: ["React", "CSS Animations", "Responsive Design"],
+    tech: ["HTML", "CSS Animations", "Responsive Design"],
     github: "https://github.com/Reteecent/unruly-landing-page-template",
     gradient: "from-neon-purple to-neon-pink"
   },
   {
     title: "Scribe AI",
-    description: "An AI-powered writing assistant that leverages modern language models to enhance content creation and productivity workflows.",
+    description: "A modern, responsive AI-powered chat application built with vanilla JavaScript that provides intelligent conversations with document export capabilities.",
     tech: ["React", "AI Integration", "Node.js"],
     github: "https://github.com/Reteecent/scribe-ai",
     gradient: "from-neon-blue to-neon-purple"
@@ -42,7 +42,7 @@ const Projects = () => {
             Featured Projects
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            A showcase of my latest work in frontend development and AI integration
+            A showcase of my latest work in frontend development
           </p>
         </motion.div>
 

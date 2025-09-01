@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 
-const Navigation = () => {
+const Navigation = () => {  
   const [activeSection, setActiveSection] = useState("");
   
   const navItems = [

@@ -27,8 +27,7 @@ const About = () => {
             <Card className="bg-gradient-card border-border p-8 md:p-12">
               <div className="space-y-6 text-lg leading-relaxed">
                 <p className="text-foreground">
-                  I'm a passionate <span className="text-neon-cyan font-semibold">200-level Production Engineering student</span> at the 
-                  University of Benin, currently making my mark as an <span className="text-neon-purple font-semibold">entry-level frontend developer</span> 
+                  I'm a passionate <span className="text-neon-cyan font-semibold">Frontend web developer</span> currently making my mark as an <span className="text-neon-purple font-semibold">entry-level web developer</span> 
                   with big dreams in the tech industry.
                 </p>
                 

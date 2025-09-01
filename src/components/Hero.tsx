@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
 
-const Hero = () => {
+const Hero = () => {  
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-hero">
       {/* Animated background elements */}
@@ -36,9 +36,6 @@ const Hero = () => {
             <h2 className="text-2xl md:text-3xl font-semibold text-neon-cyan mb-2">
               Frontend Developer
             </h2>
-            <h3 className="text-xl md:text-2xl text-neon-purple font-medium">
-              Aspiring Fullstack AI Engineer
-            </h3>
           </motion.div>
           
           <motion.p 
@@ -47,7 +44,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            I build sleek, functional, and AI-driven web experiences that push the boundaries of modern technology.
+            I build sleek and functional web experiences that push the boundaries of modern technology.
           </motion.p>
           
           <motion.div 
