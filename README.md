@@ -11,9 +11,11 @@ https://emmanuel-idiahi.netlify.app/
 
 ---
 
-##Preview
+## Preview
 
-(./preview.png)
+(/preview.png)
+
+--
 
 ## 🚀 Features
 
