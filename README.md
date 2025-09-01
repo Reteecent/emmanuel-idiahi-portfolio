@@ -1,4 +1,3 @@
-````markdown name=README.md
 # Emmanuel Idiahi Portfolio &nbsp;![Portfolio](https://img.shields.io/badge/portfolio-blue?logo=portfolio) ![TypeScript](https://img.shields.io/badge/language-TypeScript-blue?logo=typescript) ![Public](https://img.shields.io/badge/public-yes-blue?logo=github)
 
 ![preview](./preview.png)
@@ -77,4 +76,3 @@ Feel free to open issues for suggestions or bug reports.
 ---
 
 _Built and maintained with ❤️ by [Reteecent](https://github.com/Reteecent)_
-````
