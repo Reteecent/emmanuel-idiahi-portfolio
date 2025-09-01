@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 # Emmanuel Idiahi Portfolio &nbsp;![Portfolio](https://img.shields.io/badge/portfolio-blue?logo=portfolio) ![TypeScript](https://img.shields.io/badge/language-TypeScript-blue?logo=typescript) ![Public](https://img.shields.io/badge/public-yes-blue?logo=github)
 
 ![preview](./preview.png)
 =======
-````markdown name=README.md
+
 # Emmanuel Idiahi Portfolio &nbsp;![Portfolio](https://img.shields.io/badge/portfolio-blue?logo=portfolio) ![TypeScript](https://img.shields.io/badge/language-TypeScript-blue?logo=typescript) ![Public](https://img.shields.io/badge/public-yes-blue?logo=github)
 
 <p align="center">
@@ -107,5 +106,3 @@ _Built and maintained with ❤️ by [Reteecent](https://github.com/Reteecent)_
 <p align="center">
   Made with ❤️ by <a href="https://github.com/Reteecent">Reteecent</a>
 </p>
-````
->>>>>>> eedd2913480e332e92fa1fe2e8f4d51a2b65fa60
