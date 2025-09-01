@@ -5,6 +5,16 @@ This project showcases the professional journey, skills, and projects of Emmanue
 
 ---
 
+## This portfolio is live at:
+
+https://emmanuel-idiahi.netlify.app/
+
+---
+
+##Preview
+
+(./preview.png)
+
 ## 🚀 Features
 
 - **Personal Introduction** &nbsp;:bust_in_silhouette:
@@ -44,8 +54,9 @@ npm start
 
 ## 📄 License
 
-This project is currently unlicensed.  
-If you plan to use or contribute, please contact the repository owner.
+This project is published under the MIT license.
+
+[LICENSE](./LICENSE)
 
 ---
 
