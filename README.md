@@ -16,7 +16,7 @@
 ## 👋 Welcome
 
 Welcome to the official repository for **Emmanuel Idiahi's Portfolio**!  
-This project highlights the professional journey, skills, and projects of Emmanuel Idiahi, featuring a modern, responsive design built with cutting-edge web technologies.
+This project highlights my professional journey, skills, and projects, featuring a modern, responsive design built with cutting-edge web technologies.
 
 ---
 
