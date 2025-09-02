@@ -1,6 +1,7 @@
 # Emmanuel Idiahi Portfolio &nbsp;![Portfolio](https://img.shields.io/badge/portfolio-blue?logo=portfolio) ![TypeScript](https://img.shields.io/badge/language-TypeScript-blue?logo=typescript) ![Public](https://img.shields.io/badge/public-yes-blue?logo=github)
 
 ![preview](./preview.png)
+
 =======
 
 
@@ -9,6 +10,7 @@
 ## 🚀 Live Portfolio
 
 🔗 [emmanuel-idiahi.netlify.app](https://emmanuel-idiahi.netlify.app/)
+
 =======
 
 ---
@@ -83,6 +85,7 @@ Feel free to open issues for suggestions or bug reports.
 ## 📫 Contact
 
 - 💼 [Portfolio Source on GitHub](https://github.com/Reteecent/emmanuel-idiahi-portfolio)
+  
 =======
 - 💼[My GitHub](https://github.com/Reteecent/emmanuel-idiahi-portfolio)
 
@@ -91,6 +94,7 @@ Feel free to open issues for suggestions or bug reports.
 ---
 
 _Built and maintained with ❤️ by [Reteecent](https://github.com/Reteecent)_
+
 =======
 <p align="center">
   Made with ❤️ by <a href="https://github.com/Reteecent">Reteecent</a>
