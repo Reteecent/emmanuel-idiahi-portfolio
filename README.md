@@ -39,8 +39,7 @@ This project highlights my professional journey, skills, and projects, featuring
 - ![React](https://img.shields.io/badge/React-61DAFB?logo=react) React
 - ![CSS](https://img.shields.io/badge/CSS-2965f1?logo=css3) CSS
 - ![HTML](https://img.shields.io/badge/HTML5-e34c26?logo=html5) HTML5
-  
-=======
+
 <div>
   <img src="https://img.shields.io/badge/TypeScript-007acc?logo=typescript" alt="TypeScript" />
   <img src="https://img.shields.io/badge/React-61DAFB?logo=react" alt="React" />
