@@ -61,7 +61,7 @@ npm start
 
 ## 🌐 Usage
 
-- Explore Emmanuel's professional background and completed projects.
+- Explore my professional background and completed projects.
 - Use the contact section to inquire about collaborations or opportunities.
 
 ---
@@ -84,7 +84,7 @@ Feel free to open issues for suggestions or bug reports.
 
 - 💼 [Portfolio Source on GitHub](https://github.com/Reteecent/emmanuel-idiahi-portfolio)
 =======
-- 💼 [Emmanuel Idiahi's GitHub](https://github.com/Reteecent/emmanuel-idiahi-portfolio)
+- 💼[My GitHub](https://github.com/Reteecent/emmanuel-idiahi-portfolio)
 
 - 📬 For inquiries, [open an issue](https://github.com/Reteecent/emmanuel-idiahi-portfolio/issues) or use the contact form on the live portfolio.
 
