@@ -2,7 +2,6 @@
 
 ![preview](./preview.png)
 
-=======
 
 
 ---
@@ -11,7 +10,7 @@
 
 🔗 [emmanuel-idiahi.netlify.app](https://emmanuel-idiahi.netlify.app/)
 
-=======
+
 
 ---
 
@@ -86,7 +85,7 @@ Feel free to open issues for suggestions or bug reports.
 
 - 💼 [Portfolio Source on GitHub](https://github.com/Reteecent/emmanuel-idiahi-portfolio)
   
-=======
+
 - 💼[My GitHub](https://github.com/Reteecent/emmanuel-idiahi-portfolio)
 
 - 📬 For inquiries, [open an issue](https://github.com/Reteecent/emmanuel-idiahi-portfolio/issues) or use the contact form on the live portfolio.
@@ -95,7 +94,7 @@ Feel free to open issues for suggestions or bug reports.
 
 _Built and maintained with ❤️ by [Reteecent](https://github.com/Reteecent)_
 
-=======
+
 <p align="center">
   Made with ❤️ by <a href="https://github.com/Reteecent">Reteecent</a>
 </p>
