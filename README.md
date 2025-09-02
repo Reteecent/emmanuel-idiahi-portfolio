@@ -1,4 +1,4 @@
-# Emmanuel Idiahi Portfolio &nbsp;![Portfolio](https://img.shields.io/badge/portfolio-blue?logo=portfolio) ![TypeScript](https://img.shields.io/badge/language-TypeScript-blue?logo=typescript) ![Public](https://img.shields.io/badge/public-yes-blue?logo=github)
+# Emmanuel Idiahi Portfolio &nbsp;![Portfolio] (https://img.shields.io/badge/portfolio-blue?logo=portfolio) ![TypeScript](https://img.shields.io/badge/language-TypeScript-blue?logo=typescript) ![Public](https://img.shields.io/badge/public-yes-blue?logo=github)
 
 ![preview](./preview.png)
 
