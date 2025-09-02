@@ -29,7 +29,7 @@ const projects = [
   {
     title: "Scribe AI",
     description: "A modern, responsive AI-powered chat application built with vanilla JavaScript that provides intelligent conversations with document export capabilities.",
-    tech: ["React", "AI Integration", "Node.js"],
+    tech: ["HTML", "AI Integration", "Responsive Design"],
     github: "https://github.com/Reteecent/scribe-ai",
     live: "https://the-scribe-ai.netlify.app/",
   image: scribeaiImg,
