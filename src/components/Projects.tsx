@@ -52,7 +52,7 @@ const Projects = () => {
             Featured Projects
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            A showcase of my latest work in frontend development
+            A showcase of my latest work in fullstack development
           </p>
         </motion.div>
 

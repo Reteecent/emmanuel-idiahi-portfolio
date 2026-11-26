@@ -38,12 +38,20 @@ This project highlights my professional journey, skills, and projects, featuring
 - ![React](https://img.shields.io/badge/React-61DAFB?logo=react) React
 - ![CSS](https://img.shields.io/badge/CSS-2965f1?logo=css3) CSS
 - ![HTML](https://img.shields.io/badge/HTML5-e34c26?logo=html5) HTML5
+- ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white) Node.js
+- ![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white) Express
+- ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white) MongoDB
+- ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?logo=supabase&logoColor=white) Supabase
 
 <div>
   <img src="https://img.shields.io/badge/TypeScript-007acc?logo=typescript" alt="TypeScript" />
   <img src="https://img.shields.io/badge/React-61DAFB?logo=react" alt="React" />
   <img src="https://img.shields.io/badge/CSS-2965f1?logo=css3" alt="CSS" />
   <img src="https://img.shields.io/badge/HTML5-e34c26?logo=html5" alt="HTML5" />
+  <img src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express-000000?logo=express&logoColor=white" alt="Express" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?logo=supabase&logoColor=white" alt="Supabase" />
 </div>
 
 

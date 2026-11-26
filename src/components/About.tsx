@@ -27,19 +27,19 @@ const About = () => {
             <Card className="bg-gradient-card border-border p-8 md:p-12">
               <div className="space-y-6 text-lg leading-relaxed">
                 <p className="text-foreground">
-                  I'm a passionate <span className="text-neon-cyan font-semibold">Frontend web developer</span> currently making my mark as an <span className="text-neon-purple font-semibold">entry-level web developer</span> 
+                  I'm a passionate <span className="text-neon-cyan font-semibold">Fullstack web developer</span> currently making my mark as an <span className="text-neon-purple font-semibold">entry-level web developer</span>
                   with big dreams in the tech industry.
                 </p>
                 
                 <p className="text-muted-foreground">
                   My journey in technology is driven by a deep fascination with how code can transform ideas into 
                   interactive digital experiences. I specialize in creating modern, responsive web applications 
-                  that not only look stunning but also provide seamless user experiences.
+                  that not only look stunning but also provide seamless user experiences. I pair my React frontends with backends built on Node.js, Express, MongoDB, and Supabase.
                 </p>
                 
                 <p className="text-muted-foreground">
                   As an <span className="text-accent font-semibold">AI enthusiast</span>, I'm constantly exploring the intersection 
-                  of artificial intelligence and web development. I believe that the future of frontend development 
+                  of artificial intelligence and web development. I believe that the future of fullstack development
                   lies in AI-powered solutions that can adapt, learn, and provide personalized user experiences.
                 </p>
                 

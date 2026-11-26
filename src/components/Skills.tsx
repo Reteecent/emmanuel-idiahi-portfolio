@@ -31,6 +31,24 @@ const skills = [
     icon: "🚀",
     description: "Backend development and API integration",
     color: "text-neon-pink"
+  },
+  {
+    name: "Express",
+    icon: "⚙️",
+    description: "Backend framework for building REST APIs",
+    color: "text-neon-cyan"
+  },
+  {
+    name: "MongoDB",
+    icon: "🍃",
+    description: "NoSQL database for flexible data storage",
+    color: "text-neon-blue"
+  },
+  {
+    name: "Supabase",
+    icon: "⚡",
+    description: "Backend-as-a-service for auth, database, and storage",
+    color: "text-neon-purple"
   }
 ];
 
