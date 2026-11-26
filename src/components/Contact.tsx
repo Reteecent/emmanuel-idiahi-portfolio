@@ -196,7 +196,7 @@ const Contact = () => {
             <div className="bg-gradient-card p-6 rounded-lg border border-border">
               <p className="text-neon-cyan font-semibold mb-2">Open to Opportunities</p>
               <p className="text-muted-foreground text-sm">
-                Currently seeking internship and entry-level positions in frontend development projects.
+                Currently seeking internship and entry-level positions in fullstack development projects.
               </p>
             </div>
           </motion.div>
